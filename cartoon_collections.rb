@@ -16,6 +16,6 @@ def find_the_cheese(cheese)
   cheeses = %w(gouda cheddar camembert)
 
   cheese.find do |cheesey_types|
-    cheeses.include?(cheese_types)
+    cheeses.include?(cheesey_types)
   end
 end
